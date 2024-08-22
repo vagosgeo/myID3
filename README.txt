@@ -1,25 +1,3 @@
-Για την εκτέλεση των αλγορίθμων χρειάζεται ο υπολογιστής να έχει εγκατεστημένη την python.
-Αν δεν είναι ήδη εγκατεστημένη, θα πρέπει γίνει λήψη και εκτέλεσή της από το https://www.python.org/downloads/.
-Στο μηχάνημα θα πρέπει επίσης να είναι εγκατεστημένες οι ακόλουθες βιβλιοθήκες:
-sys, tensorflow, numpy, tqdm και sklearn
-
-
-Εκτέλεση τωνν αρχείων:
- 1. εκτέλεση της γραμμής εντολών
- 2. πλοήγηση στο φάκελο που είναι μέσα τα αρχεία (προσοχή, και τα 2 .py αρχεία πρέπει να είναι στον ίδιο φάκελο)
- 3. πληκτρολόγηση των κάτωθι εντολών:
-		Για εκτέλεση της ID3:
-			python myID3.py arg1 arg2 arg3 arg4 arg5	
-		Για εκτέλεση της Random Forest:
-			python myRandomForest.py arg1 arg2 arg3 arg4 arg5 arg6
-
-arg1 : επιθυμητός αριθμός συχνότερων λέξεων από τις οποίες θα αποτελείται το λεξιλόγιο (m)
-arg2 : επιθυμητό μέγεθος δεδομένων εκπαίδευσης (0-25000)
-arg3 : επιθυμητός αριθμός συχνότερων λέξεων που θα αφαιρεθούν από το λεξιλόγιο (n)
-arg4 : 1 αν είναι επιθυμητό να εκτελεστούν οι εντολές του myID3.py για τη δημιουργία του 
-	   ID3 δέντρου μας και την αξιολόγησή του και αυτές τις sklearn για την DecisionTreeClassifier.	
-	   0 αν όχι (δηλαδή στην περίπτωση που εκτελείται το myRandomForest.py)
-arg5 : μέγιστο βάθος δέντρου
-arg6 : πλήθος δέντρων τυχαίου δάσους
-
-*Η υλοποίηση των αλγορίθμων έγινε με την έκδοση 3.10.2*
+Created a machine learning algorithm, that combines the output of multiple decision trees to reach a single result.
+Specifically, this algorithm has as inputs some movies' reviews and it was being trained in order to be capable to decide if the review is negative or positive.
+Then we compared the results of myID3 with Random Forest algorithm results. 
