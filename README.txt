@@ -1,3 +1,16 @@
+# **Example README File**
+
+## **Project Title**
+
+Project Title is a description of the project and its purpose.
+
+## **Introduction**
+
+Project Title is a project that does something useful. It was created to solve a particular problem, and it provides a solution that is better than the alternatives.
+
+## **Installation**
+
+To install Project Title, follow these steps:
 # ID3
 
 Created a machine learning algorithm, that combines the output of multiple decision trees to reach a single result.
